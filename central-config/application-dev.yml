@@ -11,11 +11,11 @@ eureka:
     prefer-ip-address: true
 
 spring:
-  datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: "jdbc:mysql://${NOZAMA_APP_MYSQL_URL:localhost}:${NOZAMA_APP_MYSQL_PORT:3306}/${NOZAMA_APP_MYSQL_DBNAME:nozama_db}?createDatabaseIfNotExist=true&allowPublicKeyRetrieval=true&useSSL=false"
-    username: nozama_dba
-    password: nozama19
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: "jdbc:mysql://${NOZAMA_APP_MYSQL_URL:localhost}:${NOZAMA_APP_MYSQL_PORT:3306}/${NOZAMA_APP_MYSQL_DBNAME:nozama_user_db}?createDatabaseIfNotExist=true&allowPublicKeyRetrieval=true&useSSL=false"
+#    username: nozama_dba
+#    password: nozama19
 
   jpa:
     properties:
