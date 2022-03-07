@@ -54,8 +54,8 @@ spring:
         uri: http://${HOST_NAME:localhost}:${eureka_port:8088}
         predicates:
         - Path=/cart/** 
-      - id: nozama-cloudservice
-        uri: http://${HOST_NAME:localhost}:${eureka_port:8091}
+      - id: nozama-configservice
+        uri: http://nozama-config-service:8888
         predicates:
         - Path=/config/**
       - id: nozama-addressservice
